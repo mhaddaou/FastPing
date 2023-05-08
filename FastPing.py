@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    fping.py                                           :+:      :+:    :+:    #
+#    FastPing.py                                        :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: mhaddaou <mhaddaou@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/08 19:21:47 by mhaddaou          #+#    #+#              #
-#    Updated: 2023/05/08 19:21:48 by mhaddaou         ###   ########.fr        #
+#    Updated: 2023/05/08 19:28:01 by mhaddaou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ def ping(ip):
         print(f"{ip} is down")
 
 # get the IP address range in CIDR notation from the user
-ip_range_cidr = input("Enter the IP address range in CIDR notation (e.g. 192.168.0.0/24): ")
+ip_range_cidr = input("Enter the IP address range in CIDR notation (e.g. 200.200.0.0/24): ")
 
 # validate the CIDR notation and create an IPv4Network object
 try:
